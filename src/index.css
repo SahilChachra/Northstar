@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky-blue: #4B9CD3;
+  --color-steel-blue: #4682B4;
+  --color-tan-beige: #D2B48C;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
